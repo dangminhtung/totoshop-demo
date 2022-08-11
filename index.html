@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <div style="position: absolute; left: 0;">
+
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <!-- chia ra làm 4 đoạn 
+                    1 ảnh 
+                    2 xtra-header
+                    3 menu
+                    4 footer -->
+                <img src="https://mcdn.nhanh.vn/store/7136/logo_1654678632_z3476822435870_f4b9e00e50611b2a32876556b0d95082.jpg"
+                    alt="logo" itemprop="logo" class="logo">
+                <div class="side-etra">
+                    <div class="header-extra">
+                        <a href="#" class="user">
+                            <i class="iconfirst fa fa-user-circle"></i>
+                        </a>
+                        <a href="#" class="seacrh">
+                            <ion-icon name="search-outline" class="iconfirst"></ion-icon>
+                        </a>
+                        <a href="#" class="wish-list">
+                            <i class="iconfirst far fa-heart"></i>
+                        </a>
+                        <a href="#" class="cart">
+                            <ion-icon name="cart-outline" class="iconfirst"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="side-menu">
+                        <ul class="menu">
+                            <li class="menu-item"><span class="font-item">New Arrivals</span></li>
+                            <li class="menu-item"><span class="font-item">Áo Khoác</span></li>
+                            <li class="menu-item"><span class="font-item">Áo Khoác</span></li>
+                            <li class="menu-item"><span class="font-item">Đồ Nam</span></li>
+                            <li class="menu-item"><span class="font-item">Đồ Nữ</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="side-footer">
+                <div class="number">
+                    <a href="tel:0832 020 402" class="number-tele">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>0832 020 420</span>
+                    </a>
+                </div>
+                <!-- ---------------------------- -->
+                <div class="connect">
+                    <ul class="connect-list">
+                        <li class="connect-item">
+                            <a href="#" class="facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="connect-item">
+                            <a href="#" class="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="connect-item">
+                            <a href="#" class="youtube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="connect-item">
+                            <a href="#" class="zalo">
+                                <img src="./assets/img/zalo.png" alt="zalo" class="zaloimg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar  fixed-top">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="logo-sidebar">
+                    <img src="https://mcdn.nhanh.vn/store/7136/logo_1654678632_z3476822435870_f4b9e00e50611b2a32876556b0d95082.jpg"
+                        class="  logo-mobile-sidebar">
+                </div>
+                <div class="icon-sidebar">
+
+                    <a href="#" class="seacrh searh-mobile">
+                        <ion-icon name="search-outline" class="iconsecond"></ion-icon>
+                    </a>
+                    <a href="#" class="wish-list">
+                        <i class="iconsecond far fa-heart"></i>
+                    </a>
+                    <a href="#" class="cart cart-mobile">
+                        <ion-icon name="cart-outline" class="iconsecond"></ion-icon>
+                    </a>
+                </div>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div class="offcanvas-header">
+                        <img src="https://mcdn.nhanh.vn/store/7136/logo_1654678632_z3476822435870_f4b9e00e50611b2a32876556b0d95082.jpg"
+                            class="logo logo-mobile">
+
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="side-menu menu-mobile">
+                            <ul class="menu">
+                                <li class="menu-item"><span class="font-item">New Arrivals</span></li>
+                                <li class="menu-item"><span class="font-item">Áo Khoác</span></li>
+                                <li class="menu-item"><span class="font-item">Áo Khoác</span></li>
+                                <li class="menu-item"><span class="font-item">Đồ Nam</span></li>
+                                <li class="menu-item"><span class="font-item">Đồ Nữ</span></li>
+                            </ul>
+                        </div>
+                        <!-- footer -->
+                        <div class="side-footer">
+                            <div class="number">
+                                <a href="tel:0832 020 402" class="number-tele">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>0832 020 420</span>
+                                </a>
+                            </div>
+                            <!-- ---------------------------- -->
+                            <div class="connect">
+                                <ul class="connect-list">
+                                    <li class="connect-item">
+                                        <a href="#" class="facebook">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="connect-item">
+                                        <a href="#" class="instagram">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="connect-item">
+                                        <a href="#" class="youtube">
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li class="connect-item">
+                                        <a href="#" class="zalo">
+                                            <img src="./assets/img/zalo.png" alt="zalo" class="zaloimg">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main">
+
+        <div class="slider  owl-carousel owl-theme " id="first">
+            <div class="slide">
+                <img src="./assets/img/img1.jpg" alt="" class=" imgf ">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/img2.jpg" alt="" class="  imgf">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/img3.jpg" alt="" class="  imgf">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/img4.jpg" alt="" class="  imgf">
+            </div>
+        </div>
+        <div class="bd-content">
+
+            <a href="#" class="half-page">
+                <img src="./assets/img/img6.jpg" class="img-fluid">
+            </a>
+            <a href="#" class="half-page" style="float: right;">
+                <img src="./assets/img/img5.jpg" class="img-fluid">
+            </a>
+        </div>
+        <div class="banner">
+            <div class="banner-gird">
+
+                <a href="" class="imgright grid-item">
+                    <img src="./assets/img/imgright.jpg" alt="">
+                </a>
+                <a href="" class="imgleft grid-item">
+                    <img src="./assets/img/imgleft1.jpg" alt="">
+                </a>
+                <a href="" class="imgleft grid-item">
+                    <img src="./assets/img/imgleft2.jpg" alt="">
+                </a>
+                <a href="" class="imgleft grid-item">
+                    <img src="./assets/img/imgleft3.jpg" alt="">
+                </a>
+                <a href="" class="imgleft grid-item">
+                    <img src="./assets/img/imgleft4.jpg" alt="">
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="product-hot">
+            <div class="page-width">
+                <div class="section_heading">
+                    <h3 class="section_heading_title" title="NEW Arrivals">
+                        <a href="" style="color: #333;">new Arrivals</a>
+                    </h3>
+                    <span class="line-title">
+                        <i class="fa-regular fa-circle"></i>
+                    </span>
+
+                </div>
+                <div class="product">
+                    <div class="product-top second owl-carousel owl-theme">
+                        <!-- item1 -->
+                        <div class="product-item">
+                            <a href="">
+                                <img src="./assets/img/anh1.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+                        <!-- item2 -->
+                        <div class="product-item">
+                            <a href="">
+                                <img src="./assets/img/anh2.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+                        <!-- item3 -->
+                        <div class="product-item ">
+                            <a href="">
+                                <img src="./assets/img/anh3.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+                        <!-- item4 -->
+                        <div class="product-item">
+                            <a href="">
+                                <img src="./assets/img/anh4.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+                        <!-- item5 -->
+                        <div class="product-item ">
+                            <a href="">
+                                <img src="./assets/img/anh1.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+
+                    </div>
+                    <div class="product-bottom second owl-carousel owl-theme">
+                        <!-- item6 -->
+                        <div class="product-item ">
+                            <a href="">
+                                <img src="./assets/img/anh1.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+                        <!-- item7 -->
+                        <div class="product-item ">
+                            <a href="">
+                                <img src="./assets/img/anh1.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+                        <!-- item8 -->
+                        <div class="product-item ">
+                            <a href="">
+                                <img src="./assets/img/anh1.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+                        <!-- item9 -->
+                        <div class="product-item ">
+                            <a href="">
+                                <img src="./assets/img/anh1.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+                        <!-- item10 -->
+                        <div class="product-item ">
+                            <a href="">
+                                <img src="./assets/img/anh1.jpg" alt="" class="big">
+                                <div class="product-tiny">
+                                    <img src="./assets/img/anh-tiny1.jpg" alt="">
+                                </div>
+                            </a>
+                            <span class="price">100.000đ</span>
+                        </div>
+
+                    </div>
+                    <div class="my-owl-nav">
+                        <span class="my-next-button">
+                            <i class="" aria-hidden="true"></i>
+                            >
+                        </span>
+                        <span class="my-prev-button">
+                            <i class="" aria-hidden="true"></i>
+                            < </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="gemeni-img" style="margin: 100px 0;">
+            <div class="page-width">
+                <div class="img-text">
+                    <img src="./assets/img/img-footer-header.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-news">
+            <div class="page-width">
+                <h3 class="title-news">
+                    <a href="">Tin tức mỗi ngày</a>
+                </h3>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                        <div id="owl-news" class=" owl-carousel owl-theme">
+                            <div class="item">
+                                <a href=""><img src="./assets/img/footer1.jpg" alt=""></a>
+                                <div class="title-content">
+                                    <a href="" class="title-news-intro">
+                                        Xu hướng thời trang
+                                    </a>
+                                    <a href="" class="intro-news">
+                                        Xu hướng mix đồ cùng quần jogger nam chuẩn đẹp cho nam
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <a href=""><img src="./assets/img/footer2.jpg" alt=""></a>
+                                <div class="title-content">
+                                    <a href="" class="title-news-intro">
+                                        Xu hướng thời trang
+                                    </a>
+                                    <a href="" class="intro-news">
+                                        Xu hướng mix đồ cùng quần jogger nam chuẩn đẹp cho nam
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <a href=""><img src="./assets/img/footer3.jpg" alt=""></a>
+                                <div class="title-content">
+                                    <a href="" class="title-news-intro">
+                                        Xu hướng thời trang
+                                    </a>
+                                    <a href="" class="intro-news">
+                                        Xu hướng mix đồ cùng quần jogger nam chuẩn đẹp cho nam
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <a href=""><img src="./assets/img/footer4.jpg" alt=""></a>
+                                <div class="title-content">
+                                    <a href="" class="title-news-intro">
+                                        Xu hướng thời trang
+                                    </a>
+                                    <a href="" class="intro-news">
+                                        Xu hướng mix đồ cùng quần jogger nam chuẩn đẹp cho nam
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-watch-much d-xs-none col-sm-4">
+                        <h4>Bài viết xem nhiều</h4>
+                        <div class="item-news">
+                            <div class="wp-img"><img src="./assets/img/up-img1.jpg" alt=""></div>
+                            <div class="caption-news">
+                                <a href="" class="title">
+                                    KHAI TRƯƠNG CỬA HÀNG MỚI TẠI QUANG TRUNG - THỦ DẦU MỘT VÀ MỸ THO CÙNG NHIỀU CHƯƠNG
+                                    TRÌNH ƯU ĐÃI HẤP DẪN
+                                </a>
+                                <span class="date">08-07-2022</span>
+                                <a href="" class="name-cate">Tin Khuyến Mãi</a>
+                            </div>
+                        </div>
+
+                        <div class="item-news">
+                            <div class="wp-img"><img src="./assets/img/up-img2.jpg" alt=""></div>
+                            <div class="caption-news">
+                                <a href="" class="title">
+                                    KHAI TRƯƠNG CỬA HÀNG MỚI TẠI QUANG TRUNG - THỦ DẦU MỘT VÀ MỸ THO CÙNG NHIỀU CHƯƠNG
+                                    TRÌNH ƯU ĐÃI HẤP DẪN
+                                </a>
+                                <span class="date">08-07-2022</span>
+                                <a href="" class="name-cate">Tin Khuyến Mãi</a>
+                            </div>
+                        </div>
+
+                        <div class="item-news">
+                            <div class="wp-img"><img src="./assets/img/up-img3.jpg" alt=""></div>
+                            <div class="caption-news">
+                                <a href="" class="title">
+                                    KHAI TRƯƠNG CỬA HÀNG MỚI TẠI QUANG TRUNG - THỦ DẦU MỘT VÀ MỸ THO CÙNG NHIỀU CHƯƠNG
+                                    TRÌNH ƯU ĐÃI HẤP DẪN
+                                </a>
+                                <span class="date">08-07-2022</span>
+                                <a href="" class="name-cate">Tin Khuyến Mãi</a>
+                            </div>
+                        </div>
+
+                        <div class="item-news">
+                            <div class="wp-img"><img src="./assets/img/up-img4.jpg" alt=""></div>
+                            <div class="caption-news">
+                                <a href="" class="title">
+                                    KHAI TRƯƠNG CỬA HÀNG MỚI TẠI QUANG TRUNG - THỦ DẦU MỘT VÀ MỸ THO CÙNG NHIỀU CHƯƠNG
+                                    TRÌNH ƯU ĐÃI HẤP DẪN
+                                </a>
+                                <span class="date">08-07-2022</span>
+                                <a href="" class="name-cate">Tin Khuyến Mãi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="viewmore text-center">
+                    <a href="" class="loadnews">
+                        <i class="fas fa-sync" style="font-weight: 900;"></i>
+                        xem thêm nhiều tin khác
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="ytp">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_JgMCoppKHg"
+                title="DIỆN ĐỒ ĐÔI TOTO - VALENTINE AUTO NGỌT NGÀO ❤️" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+
+
+    </div>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#first").owlCarousel();
+        });
+        $('#first').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".second").owlCarousel();
+        });
+        $('.second').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+        var selector = $('.owl-carousel');
+        $('.my-next-button').click(function () {
+            selector.trigger('next.owl.carousel');
+        });
+
+        $('.my-prev-button').click(function () {
+            selector.trigger('prev.owl.carousel');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#owl-news").owlCarousel();
+        });
+        $('#owl-news').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: false,
+            autoplay: false,
+            autoplayTimeout: 4000,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
