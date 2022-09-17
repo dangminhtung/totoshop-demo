@@ -660,6 +660,7 @@ span.price {
 .footer-widgets {
     background: #000;
     padding: 30px 20px;
+    z-index: 1;
     float: left;
     width: 100%;
 }
@@ -796,6 +797,7 @@ p.email-contact {
 }
 
 .email-contact a {
+    background-color: red;
     color: #089eef;
     text-transform: uppercase;
 }
@@ -815,6 +817,7 @@ p.email-contact {
 }
 
 .footer-widgets p {
+
     font-size: 0.9rem;
     margin-top: 0;
     line-height: 1.5;
@@ -828,8 +831,20 @@ p.email-contact {
 }
 
 
+.gotoTop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 70%;
+    right: 0;
+    background-color: #333;
+    z-index: 9999;
+}
 
-
+.gotoTop i {
+    font-size: 16px;
+}
 
 
 
